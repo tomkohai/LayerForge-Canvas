@@ -134,7 +134,8 @@ body {
         width: 100vw;      /* ← largeur réelle de l’écran */
         left: 0;           /* ← collé à gauche */
         right: 0;          /* ← collé à droite */
-        position: relative;
+        position: fixed;
+        z-index: 300;
     }
 
     /* Contenu en pleine largeur */
