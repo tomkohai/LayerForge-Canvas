@@ -69,11 +69,17 @@ body {
     align-items: center;    /* ← centrés */
 }
 
-.blender-logo {
-    height: 60px; /* ajuste comme tu veux */
+.layerforge-logo {
+    height: 180px;
     width: auto;
-    margin-left: 40px; /* espace entre les deux logos */
 }
+
+.blender-logo {
+    height: 60px;
+    width: auto;
+    margin-top: 10px; /* espace entre les logos */
+}
+
 
 
 /* CONTENU blanc centré */
