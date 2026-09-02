@@ -30,10 +30,10 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 200px;
+    width: 240px;
     height: 100vh;
     background: #111;
-    padding: 140px 20px 20px 20px;
+    padding: 180px 20px 20px 20px;
     border-right: 3px solid #444;
     z-index: 10;
 }
@@ -51,7 +51,7 @@ body {
 
 /* HEADER sombre */
 .header-custom {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 240px;
     right: 0;
