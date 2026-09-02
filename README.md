@@ -2,7 +2,7 @@ LayerForge — Documentation officielle
 LayerForge est un système de calques avancé pour la peinture de textures dans Blender, inspiré des workflows de logiciels comme Krita.
 Il permet de créer, organiser et mélanger des layers non destructifs, avec un workflow clair, rapide et pensé pour l’art stylisé, le handpaint, le shading créatif et les pipelines FX.
 
-- ✨ Fonctionnalités principales : 
+- Fonctionnalités principales : 
 
 Layers non destructifs — peignez vos mesh 3D, modifiez, réorganisez sans jamais perdre votre travail.
 
@@ -10,16 +10,16 @@ Modes de fusion — mélangez vos calques Like Krita / Procreate/ Photoshop.
 
 Opacité & masques — contrôlez la transparence et les zones de peinture avec précision.
 
-Organisation intuitive — renommez, réordonnez, groupez vos layers facilement.
+Organisation intuitive — renommez, réordonnez vos layers facilement.
 
 Workflow pensé pour l’art stylisé — idéal pour le handpaint, les textures cartoon, les FX 2D/3D.
 
-Intégration native Blender — fonctionne directement dans l’éditeur de Texture Paint.
-
-Profitez d'un pack de brushs dédié ! 
+Intégration native Blender — fonctionne directement en Layout et dans l’éditeur de Texture Paint.
 
 
-- 🗂️ Roadmap & Features :
+
+
+- Roadmap & Features V1 :
 
 LayerForge évolue activement.
 
@@ -38,38 +38,12 @@ Fonctionnalitées implémentées :
 Les prochaines fonctionnalités prévues :
 - Reorder
 - Gestionnaire de menus layer 
-- Anim sequence
-- Resize
+- IMG Resize
 - Modes de fusion avancés
-- Masques de calque améliorés
-- Outils de peinture supplémentaires
-- Compatibilité Grease Pencil
-- Pack de brushs
-- Bake pour l'impression 3D
 - Outline 
 
 
-
-
-- 📦 Installation : 
-
-Téléchargez l’archive .zip de LayerForge ...... Lorsque celle ci sera disponible ! 
-
-Dans Blender :
-
-Edit → Preferences → Add-ons → Install…
-
-Sélectionnez le fichier .zip
-
-Activez l’addon LayerForge
-
-L’interface apparaît dans NPANEL
-
-
-
-
-
-- 📘 Documentation :
+-  Documentation :
 
 La documentation complète sera disponible dans ces dépôt :
 
@@ -83,26 +57,15 @@ FAQ & dépannage
 
 
 
-
-
-- 📝 Changelog : 
+-  Changelog : 
 
 Retrouvez l’historique complet des versions, commits et améliorations :
 
 v0.1 — Système de calques, opacité, panels UI
 
-v0.2 — Améliorations du workflow, corrections
-
-v0.3 — Optimisations et nouvelles options de blending
 
 
-
-
-- 💬 Support : 
+- Support : 
 
 Pour toute question : tomkohai@gmail.com
 
-- 🧩 Résumé : 
-
-LayerForge apporte un vrai système de calques à Blender, avec un workflow moderne, non destructif et pensé pour les artistes.
-Ce dépôt contient la documentation officielle, tandis que le code source reste privé pour garantir la qualité et la sécurité du produit.
