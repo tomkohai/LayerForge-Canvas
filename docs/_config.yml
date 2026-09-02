@@ -1,28 +1,16 @@
 title: "LayerForge Canvas Documentation"
 description: "Manuel d'utilisation"
 
-# Désactive le thème Midnight comme thème principal
-theme: null
+theme: jekyll-theme-midnight
 
-# Charge Midnight comme plugin (ne surcharge plus ton layout)
-plugins:
-  - jekyll-theme-midnight
-
-# SCSS
 sass:
   sass_dir: assets/css
   style: compressed
 
-# URL GitHub Pages
-baseurl: ""
-url: "https://tomkohai.github.io/LayerForge-docs"
-
-# Permet d'utiliser les layouts et includes
 markdown: kramdown
 kramdown:
   input: GFM
 
-# Fichiers à inclure dans la build
 include:
   - assets
   - _layouts
