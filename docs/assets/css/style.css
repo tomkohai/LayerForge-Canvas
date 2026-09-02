@@ -123,6 +123,8 @@ body {
     }
 
     .sidebar a {
+        position: fixed;   /* ← devient fixe */
+        z-index: 250; 
         font-size: 18px;
         font-weight: 600;
         color: #ffcc00;
@@ -134,8 +136,8 @@ body {
         width: 100vw;      /* ← largeur réelle de l’écran */
         left: 0;           /* ← collé à gauche */
         right: 0;          /* ← collé à droite */
-        position: fixed;
-        z-index: 300;
+        position: relative;
+     
     }
 
     /* Contenu en pleine largeur */
