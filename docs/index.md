@@ -13,9 +13,16 @@ Cette documentation vous guide à travers l’ensemble des fonctionnalités de L
 LayerForge Canvas est un addon gratuit, financé par des dons, conçu pour simplifier le workflow de peinture dans Blender.
 Il est développé par To Kohai (Tom Kohai).
 
-Commencer la lecture
-Vous pouvez maintenant parcourir les sections du manuel pour découvrir toutes les fonctionnalités de LayerForge Canvas.
+1. Introduction
+LayerForge Canvas est un addon Blender permettant de peindre :
+
+·	sur des objets 3D (handpainting)
+·	sur une toile 2D (canvas mode)
+
+Il fonctionne multi‑matériaux, ce qui permet de peindre plusieurs objets dans une même scène, chacun avec son propre matériau LayerForge.
+L’objectif : offrir un workflow simple, rapide, propre, inspiré des logiciels 2D (Krita, CSP), mais intégré dans Blender.
 
 
 
-mqfnalkvjnapvn
+
+
