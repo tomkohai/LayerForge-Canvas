@@ -8,7 +8,7 @@
 
 <body>
 
-  <!-- BOUTON MENU MOBILE -->
+  <!-- BOUTON MENU MOBILE (désactivé en CSS mobile) -->
   <button class="mobile-menu-btn">☰ Menu</button>
 
   <!-- SIDEBAR -->
@@ -48,9 +48,11 @@
 
   <!-- SCRIPT MOBILE -->
   <script>
-    document.querySelector('.mobile-menu-btn').onclick = () => {
-      document.querySelector('.sidebar').classList.toggle('active');
-    };
+    document.querySelectorAll('.mobile-menu-btn').forEach(btn => {
+      btn.onclick = () => {
+        document.querySelector('.sidebar').classList.toggle('active');
+      };
+    });
   </script>
 
 </body>
