@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-/* HEADER ENCADRÉ + CENTRÉ */
+/* HEADER sombre */
 .header-custom {
     width: 100%;
     background: #0f0f0f;
@@ -20,18 +20,18 @@
     gap: 10px;
 }
 
+/* Logo divisé par 2 */
 .header-inner img {
     height: 40px;
 }
 
 .header-inner h1 {
     margin: 0;
-    font-size: 28px;
+    font-size: 26px;
     color: #fff;
 }
 
-
-/* SIDEBAR GAUCHE PLEINE HAUTEUR */
+/* SIDEBAR sombre */
 .sidebar {
     position: fixed;
     top: 0;
@@ -39,7 +39,7 @@
     width: 240px;
     height: 100vh;
     background: #111;
-    padding: 120px 20px 20px 20px; /* espace pour le header */
+    padding: 120px 20px 20px 20px;
     border-right: 3px solid #444;
 }
 
@@ -56,8 +56,16 @@
     text-decoration: underline;
 }
 
-/* DÉCALAGE DU CONTENU */
+/* CONTENU blanc */
 .page-content {
     margin-left: 260px;
-    padding: 20px;
+    padding: 30px;
+    background: #fff;
+    color: #000;
+    min-height: calc(100vh - 120px); /* pour éviter que le blanc s'arrête trop tôt */
+}
+
+/* Optionnel : arrondir le bloc de contenu */
+.page-content {
+    border-radius: 6px;
 }
