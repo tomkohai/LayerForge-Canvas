@@ -113,23 +113,42 @@ body {
 /* Mode mobile */
 @media (max-width: 900px) {
 
-    .mobile-menu-btn {
-        display: block;
-    }
-
+    /* Sidebar devient une barre horizontale */
     .sidebar {
-        transform: translateX(-100%);
-        transition: 0.3s ease;
+        position: relative;
+        width: 100%;
+        height: auto;
+        border-right: none;
+        border-bottom: 3px solid #444;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        padding: 10px 20px;
+        overflow-x: auto;
+        white-space: nowrap;
     }
 
-    .sidebar.active {
-        transform: translateX(0);
+    .sidebar a {
+        font-size: 18px;
+        font-weight: 600;
+        color: #ffcc00;
+        text-decoration: none;
     }
 
+    /* Header reste en haut, normal */
+    .header-custom {
+        margin-top: 0;
+    }
+
+    /* Contenu en pleine largeur */
     .page-content {
         margin-left: 0 !important;
+        margin-top: 20px;
         max-width: 100%;
         padding: 20px;
     }
 }
+
 
