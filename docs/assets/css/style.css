@@ -114,18 +114,20 @@ body {
         justify-content: flex-start;
         align-items: center;
 
-        gap: 25px;              /* espacement entre les liens */
+        gap: 25px;              
         padding: 15px 20px;
 
-        overflow-x: auto;       /* scroll horizontal */
-        white-space: nowrap;    /* liens sur une seule ligne */
+        overflow-x: auto;       
+        white-space: nowrap;    
         background: #111;
     }
 
     .sidebar a {
-        position: fixed;   /* ← devient fixe */
-        z-index: 250; 
-        font-size: 18px;
+        position: fixed;
+        top: auto;      
+        left: 0;
+        z-index: 250;
+        font-size: 20px;
         font-weight: 600;
         color: #ffcc00;
         text-decoration: none;
@@ -133,10 +135,11 @@ body {
 
     /* Header normal */
     .header-custom {
-        width: 100vw;      /* ← largeur réelle de l’écran */
-        left: 0;           /* ← collé à gauche */
-        right: 0;          /* ← collé à droite */
-        position: relative;
+        width: 100%;
+        position: relative;      
+        left: 0;          
+        right: 0;         
+       
      
     }
 
@@ -146,5 +149,6 @@ body {
         margin-top: 20px;
         max-width: 100%;
         padding: 20px;
+        padding-left: 10px
     }
 }
