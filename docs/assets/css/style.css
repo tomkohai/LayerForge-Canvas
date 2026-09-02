@@ -1,5 +1,15 @@
 ---
 ---
+/* Neutralisation du thème Midnight */
+body {
+    background: #fff !important;
+    color: #000 !important;
+}
+
+.page-content {
+    background: #fff !important;
+    color: #000 !important;
+}
 
 @import "{{ site.theme }}";
 
