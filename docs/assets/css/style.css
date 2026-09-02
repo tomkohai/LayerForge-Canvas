@@ -123,8 +123,10 @@ body {
 
     /* Header normal */
     .header-custom {
-        margin-left: 0;
-        width: 100%;
+        width: 100vw;      /* ← largeur réelle de l’écran */
+        left: 0;           /* ← collé à gauche */
+        right: 0;          /* ← collé à droite */
+        position: relative;
     }
 
     /* Contenu en pleine largeur */
