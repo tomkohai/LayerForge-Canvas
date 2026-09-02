@@ -103,7 +103,8 @@ body {
 
     /* Sidebar devient une barre horizontale */
     .sidebar {
-        position: relative;
+        position: fixed;   /* ← FIXE */
+        top: auto; 
         width: 100%;
         height: auto;
         border-right: none;
@@ -114,7 +115,7 @@ body {
         justify-content: flex-start;
         align-items: center;
 
-        gap: 25px;              
+              
         padding: 15px 20px;
 
         overflow-x: auto;       
@@ -123,11 +124,11 @@ body {
     }
 
     .sidebar a {
-        position: fixed;
+        position: static;
         top: auto;      
         left: 0;
         z-index: 250;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 600;
         color: #ffcc00;
         text-decoration: none;
@@ -135,7 +136,7 @@ body {
 
     /* Header normal */
     .header-custom {
-        width: 100%;
+        width: 100vw;
         position: relative;      
         left: 0;          
         right: 0;         
