@@ -26,22 +26,19 @@ LayerForge évolue activement.
 Fonctionnalitées implémentées : 
 - Create Layer Forge material 
 - Remove material
-- Gestionnaire de layers - add / remove 
-- Render switch
-- Hide On Off par layer
+- Gestionnaire de layers - add / remove / reorder
+- Render switch (emission / BSDF) 
+- Hide / Show layer
 - Solo layer
 - Lock Alpha
-- lock layer 
+- lock layer
+- Rename
+- Duplicate
 - Menu image source 
-- Add Grease Pencil
-
-Les prochaines fonctionnalités prévues :
-- Reorder
-- Gestionnaire de menus layer 
-- IMG Resize
-- Modes de fusion avancés
 - Outline 
-
+- Line Art
+- Mode Canvas 
+- Normal Paint 
 
 -  Documentation :
 
@@ -61,7 +58,7 @@ FAQ & dépannage
 
 Retrouvez l’historique complet des versions, commits et améliorations :
 
-v0.1 — Système de calques, opacité, panels UI
+v0.1 — Système de calques, opacité, panels UI .... 
 
 
 
