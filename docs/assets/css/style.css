@@ -34,7 +34,7 @@ body {
     background: #111;
     padding: 220px 20px 20px 20px; /* +40px */
     border-right: 3px solid #444;
-    z-index: 10;
+    z-index: 1;
 
     overflow-y: auto;
 }
@@ -59,7 +59,7 @@ body {
     padding: 20px 0;
     display: flex;
     justify-content: center;
-    z-index: 1; /* plus besoin de 20 */
+    z-index: 100; 
 }
 
 
