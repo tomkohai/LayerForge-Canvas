@@ -1,25 +1,19 @@
----
----
-
-/* Fond blanc global */
+/* Police globale */
 body {
     background: #fff;
-    color: #000;
+    color: #111;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Inter", "Roboto", Arial, sans-serif;
 }
 
-/* Zone de contenu blanche */
-.page-content {
-    background: #fff;
+/* Surbrillance jaune LayerForge */
+::selection {
+    background: #ffcc00;
     color: #000;
-    margin-left: 240px;
-    margin-top: 120px;
-    padding: 30px;
 }
 
-/* Sidebar sombre */
+/* SIDEBAR sombre */
 .sidebar {
     position: fixed;
     top: 0;
@@ -37,9 +31,14 @@ body {
     padding: 10px 0;
     color: #eee;
     text-decoration: none;
+    font-size: 16px;
 }
 
-/* Header sombre */
+.sidebar a:hover {
+    color: #fff;
+}
+
+/* HEADER sombre */
 .header-custom {
     position: fixed;
     top: 0;
@@ -53,7 +52,25 @@ body {
     z-index: 20;
 }
 
-/* Logo réduit */
 .header-inner img {
-    height: 40px;
+    height: 40px; /* logo réduit automatiquement */
+    width: auto;
+}
+
+.header-inner h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* CONTENU blanc */
+.page-content {
+    margin-left: 240px;
+    margin-top: 120px;
+    padding: 30px;
+    background: #fff;
+    color: #111;
+    min-height: calc(100vh - 120px);
+    border-radius: 6px;
 }
