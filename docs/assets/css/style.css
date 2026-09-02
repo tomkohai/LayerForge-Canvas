@@ -85,7 +85,7 @@ body {
 /* CONTENU blanc centré */
 .page-content {
     max-width: 1400px;
-    margin: 200px auto 40px 320px; /* ← décalage plus à droite */
+    margin: 160px auto 40px 320px; /* ← décalage plus à droite */
     padding: 40px 80px;
     background: #fff;
     color: #111;
