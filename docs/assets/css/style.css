@@ -75,7 +75,7 @@ body {
 }
 
 .blender-logo {
-    height: 100px;
+    height: 80px;
     width: auto;
     margin-top: 10px; /* espace entre les logos */
 }
@@ -84,8 +84,8 @@ body {
 
 /* CONTENU blanc centré */
 .page-content {
-    max-width: 1200px;
-    margin: 160px auto 40px 300px; /* ← décalage plus à droite */
+    max-width: 1000px;
+    margin: 160px auto 40px 280px; /* ← décalage plus à droite */
     padding: 40px 80px;
     background: #fff;
     color: #111;
