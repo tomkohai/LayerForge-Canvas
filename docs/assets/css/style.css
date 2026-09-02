@@ -21,7 +21,7 @@
 }
 
 .header-inner img {
-    height: 80px;
+    height: 40px;
 }
 
 .header-inner h1 {
@@ -29,6 +29,7 @@
     font-size: 28px;
     color: #fff;
 }
+
 
 /* SIDEBAR GAUCHE PLEINE HAUTEUR */
 .sidebar {
