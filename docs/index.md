@@ -16,20 +16,3 @@ Il est développé par To Kohai (Tom Kohai).
 Commencer la lecture
 Vous pouvez maintenant parcourir les sections du manuel pour découvrir toutes les fonctionnalités de LayerForge Canvas.
 
-
-##  Navigation
-
-- [Installation](installation.md)
-- [Modes de travail (3D / Canvas 2D)](modes.md)
-- [Gestion des matériaux LF](materials.md)
-- [Layers : création, suppression, fusion](layers.md)
-- [Outils Outline](outline.md)
-- [Outils LineArt](lineart.md)
-- [Normal Maps & BSDF](normalmap.md)
-- [Outils de rendu](render.md)
-- [Utilitaires](utilities.md)
-- [Raccourcis & workflow rapide](shortcuts.md)
-- [Roadmap V2](roadmap.md)
-
----
-BLALALALALAALALALALA
