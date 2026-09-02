@@ -51,7 +51,7 @@ body {
 /* HEADER sombre */
 .header-custom {
     position: relative; /* défile normalement */
-    margin-left: 240px; /* aligné avec la sidebar */
+    width: 100%; /* aligné avec la sidebar */
     background: #0f0f0f;
     border-bottom: 3px solid #444;
     padding: 20px 0;
