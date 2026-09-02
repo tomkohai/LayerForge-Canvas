@@ -62,7 +62,7 @@ body {
 
 
 .header-inner img {
-    height: 150px;
+    height: 250px;
     width: auto;
 }
 
@@ -75,9 +75,9 @@ body {
 
 /* CONTENU blanc centré */
 .page-content {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 160px auto 40px 240px; /* +40px de marge top */
-    padding: 40px 60px;
+    padding: 40px 80px;
     background: #fff;
     color: #111;
     min-height: calc(100vh - 160px);
