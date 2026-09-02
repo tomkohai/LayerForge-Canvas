@@ -20,11 +20,6 @@ body {
     color: #000 !important;
 }
 
-::-moz-selection {
-    background: #ffcc00 !important;
-    color: #000 !important;
-}
-
 .sidebar {
     position: fixed;
     top: 0;
@@ -42,6 +37,13 @@ body {
     align-items: flex-start;  
     gap: 10px;                  
     padding: 0 20px;           
+}
+
+.sidebar a {
+    color: #ffcc00; /* jaune LayerForge */
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
 }
 
 
