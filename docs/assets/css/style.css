@@ -70,12 +70,12 @@ body {
 }
 
 .layerforge-logo {
-    height: 130px;
+    height: 140px;
     width: auto;
 }
 
 .blender-logo {
-    height: 100px;
+    height: 150px;
     width: auto;
     margin-top: 10px; /* espace entre les logos */
 }
@@ -84,8 +84,8 @@ body {
 
 /* CONTENU blanc centré */
 .page-content {
-    max-width: 1400px;
-    margin: 160px auto 40px 320px; /* ← décalage plus à droite */
+    max-width: 1800px;
+    margin: 160px auto 40px 380px; /* ← décalage plus à droite */
     padding: 40px 80px;
     background: #fff;
     color: #111;
