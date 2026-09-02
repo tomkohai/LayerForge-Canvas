@@ -83,6 +83,9 @@ body {
     color: #111;
     min-height: calc(100vh - 160px);
     border-radius: 6px;
+    font-size: 18px;
+    line-height: 1.6;
+
 }
 
 /* Bouton menu mobile (désactivé) */
@@ -92,6 +95,11 @@ body {
 
 /* MODE MOBILE */
 @media (max-width: 900px) {
+    body {
+        font-size: 16px;
+        line-height: 1.55;
+    }
+    
 
     /* Sidebar devient une barre horizontale */
     .sidebar {
