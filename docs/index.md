@@ -17,3 +17,4 @@ Commencer la lecture
 Vous pouvez maintenant parcourir les sections du manuel pour découvrir toutes les fonctionnalités de LayerForge Canvas.
 
 
+Blablabla 
