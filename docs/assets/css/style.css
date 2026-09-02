@@ -35,6 +35,8 @@ body {
     padding: 220px 20px 20px 20px; /* +40px */
     border-right: 3px solid #444;
     z-index: 10;
+
+    overflow-y: auto;
 }
 
 .sidebar a {
