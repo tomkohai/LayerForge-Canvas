@@ -36,21 +36,21 @@ body {
     z-index: 100;
     overflow-y: auto;
 
-    display: flex;              /* ← activation flex */
-    flex-direction: column;     /* ← vertical */
-    justify-content: center;    /* ← centré verticalement */
-    align-items: flex-start;    /* ← liens alignés à gauche */
-    gap: 10px;                  /* ← espace entre liens */
-    padding: 0 20px;            /* ← padding propre */
+    display: flex;              
+    flex-direction: column;    
+    justify-content: center;  
+    align-items: flex-start;  
+    gap: 10px;                  
+    padding: 0 20px;           
 }
 
 
 
 
-/* HEADER sombre */
+/* HEADER */
 .header-custom {
-    position: relative; /* défile normalement */
-    width: 100%; /* aligné avec la sidebar */
+    position: relative; 
+    width: 100%; 
     background: #0f0f0f;
     border-bottom: 3px solid #444;
     padding: 20px 0;
@@ -62,8 +62,8 @@ body {
 
 .header-inner {
     display: flex;
-    flex-direction: column; /* ← logos l’un sous l’autre */
-    align-items: center;    /* ← centrés */
+    flex-direction: column; 
+    align-items: center;    
 }
 
 .layerforge-logo {
@@ -74,12 +74,12 @@ body {
 .blender-logo {
     height: 80px;
     width: auto;
-    margin-top: 10px; /* espace entre les logos */
+    margin-top: 10px; 
 }
 
 
 
-/* CONTENU blanc centré */
+/* CONTENU */
 .page-content {
     max-width: 1000px;
     margin-left: calc(140px + (100vw - 140px - 1000px) / 2);
@@ -90,5 +90,44 @@ body {
     color: #111;
     min-height: calc(100vh - 160px);
     border-radius: 6px;
+}
+
+/* Bouton menu mobile */
+.mobile-menu-btn {
+    display: none;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background: #ffcc00;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 6px;
+    z-index: 300;
+}
+
+/* Mode mobile */
+@media (max-width: 900px) {
+
+    .mobile-menu-btn {
+        display: block;
+    }
+
+    .sidebar {
+        transform: translateX(-100%);
+        transition: 0.3s ease;
+    }
+
+    .sidebar.active {
+        transform: translateX(0);
+    }
+
+    .page-content {
+        margin-left: 0 !important;
+        max-width: 100%;
+        padding: 20px;
+    }
 }
 
