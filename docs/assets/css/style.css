@@ -25,7 +25,6 @@ body {
     color: #000 !important;
 }
 
-/* SIDEBAR sombre */
 .sidebar {
     position: fixed;
     top: 0;
@@ -33,7 +32,7 @@ body {
     width: 240px;
     height: 100vh;
     background: #111;
-    padding: 180px 20px 20px 20px;
+    padding: 220px 20px 20px 20px; /* +40px */
     border-right: 3px solid #444;
     z-index: 10;
 }
@@ -51,17 +50,16 @@ body {
 
 /* HEADER sombre */
 .header-custom {
-    position: relative;
-    top: 0;
-    left: 240px;
-    right: 0;
+    position: relative; /* défile normalement */
+    margin-left: 240px; /* aligné avec la sidebar */
     background: #0f0f0f;
     border-bottom: 3px solid #444;
     padding: 20px 0;
     display: flex;
     justify-content: center;
-    z-index: 20;
+    z-index: 1; /* plus besoin de 20 */
 }
+
 
 .header-inner img {
     height: 150px;
@@ -78,10 +76,11 @@ body {
 /* CONTENU blanc centré */
 .page-content {
     max-width: 900px;
-    margin: 120px auto 40px 240px;
+    margin: 160px auto 40px 240px; /* +40px de marge top */
     padding: 40px 60px;
     background: #fff;
     color: #111;
-    min-height: calc(100vh - 120px);
+    min-height: calc(100vh - 160px);
     border-radius: 6px;
 }
+
