@@ -18,3 +18,13 @@ Workflow peinture 2D :
 ·	Passage automatique en vue caméra
 ·	Choix de la taille du canvas (vertical/horizontal)
 ·	Peinture comme dans un logiciel 2D
+LineArt CamView
+Panneau supplémentaire :
+·	Vue caméra 2D pour peindre avec lineart visible
+·	Contrôle de l’objet en Texture Paint
+·	Déplacement X/Y/Z
+·	Rotation
+·	Zoom (Ctrl + middle click)
+·	Pan (Shift + middle click)
+·	Sortie de la vue caméra (middle click)
+·	Retour (Numpad 0)
