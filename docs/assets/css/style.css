@@ -137,13 +137,13 @@ body {
         position: relative;
         left: 0;
         right: 0;
-        padding-top: 20px
+        padding-top: 20px;
     }
 
 
     /* Contenu en pleine largeur */
     .page-content {
-        margin-left: 10 !important;
+        margin-left: 10px !important;
         margin-top: 20px;
         max-width: 100%;
         padding: 20px;
