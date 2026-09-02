@@ -1,3 +1,8 @@
+---
+layout: default
+title: LayerForge Canvas
+---
+
 LayerForge Canvas — Documentation Officielle
 LayerForge Canvas est un environnement de peinture 2D/3D (en cours de développement) intégré à Blender, conçu pour offrir un workflow fluide et intuitif.
 Il combine un système de layers avancé, des outils de handpainting 3D, un mode Canvas 2D, des outils LineArt / Outline, et une gestion complète des textures, normal maps et matériaux.
