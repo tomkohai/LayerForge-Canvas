@@ -103,8 +103,9 @@ body {
 
     /* Sidebar devient une barre horizontale */
     .sidebar {
-        position: fixed;   /* ← FIXE */
-        top: auto; 
+        position: fixed;      /* fixe */
+        top: 0;               /* collée en haut */
+        left: 0;
         width: 100%;
         height: auto;
         border-right: none;
@@ -115,34 +116,29 @@ body {
         justify-content: flex-start;
         align-items: center;
 
-              
         padding: 15px 20px;
-
-        overflow-x: auto;       
-        white-space: nowrap;    
+        overflow-x: auto;
+        white-space: nowrap;
         background: #111;
+        z-index: 250;
     }
 
     .sidebar a {
-        position: static;
-        top: auto;      
-        left: 0;
-        z-index: 250;
+        /* plus de position / top / left ici */
         font-size: 18px;
         font-weight: 600;
         color: #ffcc00;
         text-decoration: none;
+        margin-right: 25px;
     }
-
     /* Header normal */
     .header-custom {
-        width: 100vw;
-        position: relative;      
-        left: 0;          
-        right: 0;         
-       
-     
+        width: 100%;
+        position: relative;
+        left: 0;
+        right: 0;
     }
+
 
     /* Contenu en pleine largeur */
     .page-content {
