@@ -137,7 +137,9 @@ body {
         position: relative;
         left: 0;
         right: 0;
-        padding-top: 36px;
+        margin-top: 20px;  
+}
+
     }
 
 
