@@ -32,7 +32,7 @@ body {
     width: 140px;
     height: 100vh;
     background: #111;
-    padding: 220px 20px 20px 20px; /* +40px */
+    padding: 200px 20px 20px 20px; /* +40px */
     border-right: 3px solid #444;
     z-index: 100;
 
@@ -63,13 +63,14 @@ body {
 }
 
 
-.header-inner img {
-    height: 500px;
-    width: auto;
+.header-inner {
+    display: flex;
+    flex-direction: column; /* ← logos l’un sous l’autre */
+    align-items: center;    /* ← centrés */
 }
 
 .blender-logo {
-    height: 120px; /* ajuste comme tu veux */
+    height: 60px; /* ajuste comme tu veux */
     width: auto;
     margin-left: 40px; /* espace entre les deux logos */
 }
@@ -78,7 +79,7 @@ body {
 /* CONTENU blanc centré */
 .page-content {
     max-width: 1200px;
-    margin: 160px auto 40px 240px; /* +40px de marge top */
+    margin: 200px auto 40px 280px; /* ← décalage plus à droite */
     padding: 40px 80px;
     background: #fff;
     color: #111;
