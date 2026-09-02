@@ -138,6 +138,7 @@ body {
         left: 0;
         right: 0;
         margin-top: 20px;  
+        padding-top: 20px;
 }
 
     }
@@ -146,7 +147,7 @@ body {
     /* Contenu en pleine largeur */
     .page-content {
         margin-left: 10px !important;
-        margin-top: 20px;
+        margin-top: 60px;
         max-width: 100%;
         padding: 20px;
         padding-left: 12px
