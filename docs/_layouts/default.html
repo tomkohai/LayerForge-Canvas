@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header-custom">
+    <img src="/LayerForge-docs/assets/logo.png" alt="LayerForge Logo">
+    <h1>{{ site.title }}</h1>
+  </header>
+
+  <!-- SIDEBAR -->
+  <nav class="sidebar">
+    <a href="{{ '/index.html' | relative_url }}">Accueil</a>
+    <a href="{{ '/installation.html' | relative_url }}">Installation</a>
+    <a href="{{ '/modes.html' | relative_url }}">Modes de travail</a>
+    <a href="{{ '/materials.html' | relative_url }}">Matériaux LF</a>
+    <a href="{{ '/layers.html' | relative_url }}">Layers</a>
+    <a href="{{ '/outline.html' | relative_url }}">Outline</a>
+    <a href="{{ '/lineart.html' | relative_url }}">LineArt</a>
+    <a href="{{ '/normalmap.html' | relative_url }}">Normal Maps</a>
+    <a href="{{ '/render.html' | relative_url }}">Rendu</a>
+    <a href="{{ '/utilities.html' | relative_url }}">Utilitaires</a>
+    <a href="{{ '/shortcuts.html' | relative_url }}">Raccourcis</a>
+    <a href="{{ '/roadmap.html' | relative_url }}">Roadmap</a>
+  </nav>
+
+  <!-- CONTENT -->
+  <main class="page-content">
+    {{ content }}
+  </main>
+
+</body>
+</html>
