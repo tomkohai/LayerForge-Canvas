@@ -4,11 +4,7 @@ body {
     color: #111;
     margin: 0;
     padding: 0;
-
-    /* Police ultra lisible */
     font-family: "Inter", Arial, sans-serif;
-
-    /* Graisse idéale pour lecture */
     font-weight: 500;
     font-size: 18px;
     line-height: 1.6;
@@ -20,6 +16,7 @@ body {
     color: #000 !important;
 }
 
+/* SIDEBAR (desktop) */
 .sidebar {
     position: fixed;
     top: 0;
@@ -31,41 +28,37 @@ body {
     z-index: 100;
     overflow-y: auto;
 
-    display: flex;              
-    flex-direction: column;    
-    justify-content: center;  
-    align-items: flex-start;  
-    gap: 10px;                  
-    padding: 0 20px;           
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 0 20px;
 }
 
 .sidebar a {
-    color: #ffcc00; /* jaune LayerForge */
+    color: #ffcc00;
     text-decoration: none;
     font-size: 19px;
     font-weight: 600;
 }
 
-
-
-
 /* HEADER */
 .header-custom {
-    position: relative; 
-    width: 100%; 
+    position: relative;
+    width: 100%;
     background: #0f0f0f;
     border-bottom: 3px solid #444;
     padding: 20px 0;
     display: flex;
     justify-content: center;
-    z-index: 1; 
+    z-index: 1;
 }
-
 
 .header-inner {
     display: flex;
-    flex-direction: column; 
-    align-items: center;    
+    flex-direction: column;
+    align-items: center;
 }
 
 .layerforge-logo {
@@ -76,12 +69,10 @@ body {
 .blender-logo {
     height: 80px;
     width: auto;
-    margin-top: 10px; 
+    margin-top: 10px;
 }
 
-
-
-/* CONTENU */
+/* CONTENU (desktop) */
 .page-content {
     max-width: 1000px;
     margin-left: calc(140px + (100vw - 140px - 1000px) / 2);
@@ -94,23 +85,12 @@ body {
     border-radius: 6px;
 }
 
-/* Bouton menu mobile */
+/* Bouton menu mobile (désactivé) */
 .mobile-menu-btn {
     display: none;
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    background: #ffcc00;
-    color: #000;
-    border: none;
-    padding: 10px 20px;
-    font-size: 20px;
-    font-weight: 700;
-    border-radius: 6px;
-    z-index: 300;
 }
 
-/* Mode mobile */
+/* MODE MOBILE */
 @media (max-width: 900px) {
 
     /* Sidebar devient une barre horizontale */
@@ -120,14 +100,18 @@ body {
         height: auto;
         border-right: none;
         border-bottom: 3px solid #444;
+
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
-        gap: 20px;
-        padding: 10px 20px;
-        overflow-x: auto;
-        white-space: nowrap;
+
+        gap: 25px;              /* espacement entre les liens */
+        padding: 15px 20px;
+
+        overflow-x: auto;       /* scroll horizontal */
+        white-space: nowrap;    /* liens sur une seule ligne */
+        background: #111;
     }
 
     .sidebar a {
@@ -137,9 +121,10 @@ body {
         text-decoration: none;
     }
 
-    /* Header reste en haut, normal */
+    /* Header normal */
     .header-custom {
-        margin-top: 0;
+        margin-left: 0;
+        width: 100%;
     }
 
     /* Contenu en pleine largeur */
@@ -150,5 +135,3 @@ body {
         padding: 20px;
     }
 }
-
-
