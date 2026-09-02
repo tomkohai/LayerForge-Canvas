@@ -8,6 +8,9 @@
 
 <body>
 
+  <!-- BOUTON MENU MOBILE -->
+  <button class="mobile-menu-btn">☰ Menu</button>
+
   <!-- SIDEBAR -->
   <aside class="sidebar">
     <a href="{{ '/index.html' | relative_url }}">Accueil</a>
@@ -24,23 +27,30 @@
     <a href="{{ '/roadmap.html' | relative_url }}">Roadmap</a>
   </aside>
 
- <header class="header-custom">
-  <div class="header-inner">
-    <img src="{{ '/assets/WhiteLogo_LayerForge Canvas.png' | relative_url }}" 
-         alt="Logo LayerForge" 
-         class="layerforge-logo">
+  <!-- HEADER -->
+  <header class="header-custom">
+    <div class="header-inner">
+      <img src="{{ '/assets/WhiteLogo_LayerForge Canvas.png' | relative_url }}" 
+           alt="Logo LayerForge" 
+           class="layerforge-logo">
 
-    <img src="{{ '/assets/Blender-Logo.png' | relative_url }}" 
-         alt="Logo Blender" 
-         class="blender-logo">
-  </div>
-</header>
-
+      <img src="{{ '/assets/Blender-Logo.png' | relative_url }}" 
+           alt="Logo Blender" 
+           class="blender-logo">
+    </div>
+  </header>
 
   <!-- CONTENT -->
   <main class="page-content">
     {{ content }}
   </main>
+
+  <!-- SCRIPT MOBILE -->
+  <script>
+    document.querySelector('.mobile-menu-btn').onclick = () => {
+      document.querySelector('.sidebar').classList.toggle('active');
+    };
+  </script>
 
 </body>
 </html>
