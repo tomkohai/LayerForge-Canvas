@@ -9,9 +9,15 @@ body {
 
 /* Surbrillance jaune LayerForge */
 ::selection {
-    background: #ffcc00;
-    color: #000;
+    background: #ffcc00 !important;
+    color: #000 !important;
 }
+
+::-moz-selection {
+    background: #ffcc00 !important;
+    color: #000 !important;
+}
+
 
 /* SIDEBAR sombre */
 .sidebar {
