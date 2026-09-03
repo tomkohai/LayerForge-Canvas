@@ -80,11 +80,9 @@ body {
     margin-bottom: 40px;
 
     /* centré dans l’espace restant */
-    margin-left: 0px;      /* sidebar */
-    margin-right: 60px;      /* le bloc se cale naturellement */
-
+    
+    margin-right: 10px;      /* le bloc se cale naturellement */
     padding: 40px 80px;
-    padding-left: 120px;
     background: #fff;
     color: #111;
     min-height: calc(100vh - 160px);
