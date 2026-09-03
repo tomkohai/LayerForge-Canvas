@@ -62,14 +62,14 @@ body {
 }
 
 .layerforge-logo {
-    height: 180px;
+    height: 200px;
     width: auto;
 }
 
 .blender-logo {
     height: 80px;
     width: auto;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 /* CONTENU (desktop) */
@@ -79,7 +79,7 @@ body {
     margin-bottom: 40px;
 
     /* centré dans l’espace restant */
-    margin-left: 140px;      /* on laisse 140px pour la sidebar */
+    margin-left: 160px;      /* sidebar */
     margin-right: auto;      /* le bloc se cale naturellement */
 
     padding: 40px 80px;
@@ -87,7 +87,7 @@ body {
     color: #111;
     min-height: calc(100vh - 160px);
     border-radius: 6px;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.6;
 }
 
