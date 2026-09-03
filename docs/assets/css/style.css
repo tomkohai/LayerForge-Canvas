@@ -42,6 +42,11 @@ body {
     font-size: 19px;
     font-weight: 600;
 }
+.sidebar a.active {
+    color: #b30000; /* rouge foncé */
+    font-weight: 700;
+}
+
 
 /* HEADER */
 .header-custom {
@@ -158,6 +163,11 @@ body {
         text-decoration: none;
         margin-right: 25px;
     }
+    .sidebar a.active {
+        color: #b30000; /* rouge foncé */
+        font-weight: 700;
+    }
+
     /* Header normal */
     .header-custom {
         width: 100%;
