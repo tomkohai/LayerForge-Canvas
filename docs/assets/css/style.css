@@ -4,7 +4,6 @@ body {
     color: #111;
     margin: 0;
     padding: 0;
-    padding-left: 240px;
     font-family: "Inter", Arial, sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -78,11 +77,10 @@ body {
     
     margin-top: 100px;
     margin-bottom: 40px;
-
-    /* centré dans l’espace restant */
-    
     margin-right: 0px;      /* le bloc se cale naturellement */
     padding: 0px 0px;
+    padding-left: 240px;
+    padding-right: 24px;
     background: #fff;
     color: #111;
     min-height: calc(100vh - 160px);
