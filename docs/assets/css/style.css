@@ -81,7 +81,7 @@ body {
 
     /* centré dans l’espace restant */
     margin-left: 0px;      /* sidebar */
-    margin-right: 60;      /* le bloc se cale naturellement */
+    margin-right: 60px;      /* le bloc se cale naturellement */
 
     padding: 40px 80px;
     padding-left: 120px;
@@ -91,6 +91,16 @@ body {
     border-radius: 6px;
     font-size: 19px;
     line-height: 1.2;
+}
+
+.lf-footer {
+    max-width: 1000px;          /* même largeur que page-content */
+    margin: 40px auto;          /* centré */
+    padding: 20px 40px;         /* espace interne */
+    text-align: center;
+    font-size: 16px;
+    color: #444;
+    border-top: 2px solid #ddd; /* ligne discrète */
 }
 
 
@@ -145,7 +155,7 @@ body {
         right: 0;
         margin-top: 25px;  
         padding-top: 25px;
-}
+
 
     }
 
@@ -158,4 +168,16 @@ body {
         padding: 20px;
         padding-left: 12px
     }
+
+
+ 
+    .lf-footer {
+        max-width: 100%;
+        margin-left: 14px;      /* même décalage que page-content */
+        margin-right: 14px;
+        padding: 20px;
+        text-align: center;
+        border-top: 2px solid #ddd;
+    }
 }
+
