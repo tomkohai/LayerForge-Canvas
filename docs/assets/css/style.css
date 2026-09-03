@@ -79,6 +79,7 @@ body {
     margin-top: 140px;
     margin-bottom: 40px;
     padding: 40px 80px;
+    padding-left: 240px;
     background: #fff;
     color: #111;
     min-height: calc(100vh - 160px);
