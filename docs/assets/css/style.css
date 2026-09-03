@@ -82,7 +82,7 @@ body {
     /* centré dans l’espace restant */
     
     margin-right: 0px;      /* le bloc se cale naturellement */
-    padding: 40px 80px;
+    padding: 0px 0px;
     background: #fff;
     color: #111;
     min-height: calc(100vh - 160px);
