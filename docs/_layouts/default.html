@@ -14,18 +14,18 @@
 
  <!-- SIDEBAR -->
   <aside class="sidebar">
-    <a href="{{ '/index.html' | relative_url }}" class="{% if page.url == '/index.html' %}active{% endif %}">Accueil</a>
-    <a href="{{ '/installation.html' | relative_url }}" class="{% if page.url == '/installation.html' %}active{% endif %}">Installation</a>
-    <a href="{{ '/modes.html' | relative_url }}" class="{% if page.url == '/modes.html' %}active{% endif %}">Modes de travail</a>
-    <a href="{{ '/materials.html' | relative_url }}" class="{% if page.url == '/materials.html' %}active{% endif %}">Matériaux LF</a>
-    <a href="{{ '/layers.html' | relative_url }}" class="{% if page.url == '/layers.html' %}active{% endif %}">Layers</a>
-    <a href="{{ '/outline.html' | relative_url }}" class="{% if page.url == '/outline.html' %}active{% endif %}">Outline</a>
-    <a href="{{ '/lineart.html' | relative_url }}" class="{% if page.url == '/lineart.html' %}active{% endif %}">LineArt</a>
-    <a href="{{ '/normalmap.html' | relative_url }}" class="{% if page.url == '/normalmap.html' %}active{% endif %}">Normal Maps</a>
-    <a href="{{ '/render.html' | relative_url }}" class="{% if page.url == '/render.html' %}active{% endif %}">Rendu</a>
-    <a href="{{ '/utilities.html' | relative_url }}" class="{% if page.url == '/utilities.html' %}active{% endif %}">Utilitaires</a>
-    <a href="{{ '/shortcuts.html' | relative_url }}" class="{% if page.url == '/shortcuts.html' %}active{% endif %}">Raccourcis</a>
-    <a href="{{ '/roadmap.html' | relative_url }}" class="{% if page.url == '/roadmap.html' %}active{% endif %}">Roadmap</a>
+    <a href="{{ '/index.html' | relative_url }}" class="{% if page.url contains 'index' %}active{% endif %}">Accueil</a>
+    <a href="{{ '/installation.html' | relative_url }}" class="{% if page.url contains 'installation' %}active{% endif %}">Installation</a>
+    <a href="{{ '/modes.html' | relative_url }}" class="{% if page.url contains 'modes' %}active{% endif %}">Modes de travail</a>
+    <a href="{{ '/materials.html' | relative_url }}" class="{% if page.url contains 'materials' %}active{% endif %}">Matériaux LF</a>
+    <a href="{{ '/layers.html' | relative_url }}" class="{% if page.url contains 'layers' %}active{% endif %}">Layers</a>
+    <a href="{{ '/outline.html' | relative_url }}" class="{% if page.url contains 'outline' %}active{% endif %}">Outline</a>
+    <a href="{{ '/lineart.html' | relative_url }}" class="{% if page.url contains 'lineart' %}active{% endif %}">LineArt</a>
+    <a href="{{ '/normalmap.html' | relative_url }}" class="{% if page.url contains 'normalmap' %}active{% endif %}">Normal Maps</a>
+    <a href="{{ '/render.html' | relative_url }}" class="{% if page.url contains 'render' %}active{% endif %}">Rendu</a>
+    <a href="{{ '/utilities.html' | relative_url }}" class="{% if page.url contains 'utilities' %}active{% endif %}">Utilitaires</a>
+    <a href="{{ '/shortcuts.html' | relative_url }}" class="{% if page.url contains 'shortcuts' %}active{% endif %}">Raccourcis</a>
+    <a href="{{ '/roadmap.html' | relative_url }}" class="{% if page.url contains 'roadmap' %}active{% endif %}">Roadmap</a>
 </aside>
 
 
