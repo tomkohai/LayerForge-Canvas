@@ -1,3 +1,10 @@
+---
+layout: default
+title: Presentation
+---
+
+
+
 Presentation
 LayerForge Canvas is a Blender addon designed to extend and streamline the Texture Paint workflow. It is particularly suited for artists working in stylized NPR emission, but it also allows painting stylized normal maps directly, providing depth through BSDF. LFC includes a dedicated normal map palette and offers a simple switch between emission and BSDF through the Render Switch, making it easy to move from flat stylized rendering to a relief‑based look.
 LFC is under active development and aims to bring Blender closer to a Krita / Photoshop‑like workflow, while remaining 100% native to Blender. It works in both Layout and Texture Paint Mode, and its internal architecture relies on node groups (NG) that separate and organize layers.
