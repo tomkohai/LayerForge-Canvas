@@ -75,19 +75,22 @@ body {
 /* CONTENU (desktop) */
 .page-content {
     max-width: 1000px;
-    margin-left: calc(140px + (100vw - 140px - 1000px) / 2);
     margin-top: 140px;
     margin-bottom: 40px;
+
+    /* centré dans l’espace restant */
+    margin-left: 140px;      /* on laisse 140px pour la sidebar */
+    margin-right: auto;      /* le bloc se cale naturellement */
+
     padding: 40px 80px;
-    padding-left: 240px;
     background: #fff;
     color: #111;
     min-height: calc(100vh - 160px);
     border-radius: 6px;
     font-size: 18px;
     line-height: 1.6;
-
 }
+
 
 /* Bouton menu mobile (désactivé) */
 .mobile-menu-btn {
