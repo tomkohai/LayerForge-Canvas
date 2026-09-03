@@ -79,7 +79,7 @@ body {
     margin-left: 0;
 
     display: grid;
-    grid-template-columns: 180px 800px 180px;
+    grid-template-columns: 1fr auto 1fr;
     column-gap: 40px;
 
     background: #fff;
@@ -91,6 +91,8 @@ body {
 
 .lfc-center {
     grid-column: 2;
+    max-width: 900px; /* largeur contrôlée mais flexible */
+    width: 100%;
 }
 
 
@@ -172,7 +174,6 @@ body {
     /* Contenu en pleine largeur */
     .page-content {
         display: block !important;
-        grid-template-columns: none !important;
         margin-left: 10px !important;
         margin-top: 40px;
         max-width: 100%;
