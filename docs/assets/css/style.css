@@ -90,6 +90,10 @@ body {
     line-height: 1.2;
 }
 
+.lfc-center {
+    grid-column: 2;
+}
+
 
 .lf-footer {
     max-width: 1000px;          /* même largeur que page-content */
