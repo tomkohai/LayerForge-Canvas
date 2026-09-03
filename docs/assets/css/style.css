@@ -164,18 +164,18 @@ body {
 
     /* Contenu en pleine largeur */
     .page-content {
-        margin-left: 10px !important;
+        margin-left: 2px !important;
         margin-top: 60px;
         max-width: 100%;
         padding: 20px;
-        padding-left: 12px
+        padding-left: 2px
     }
 
 
  
     .lf-footer {
         max-width: 100%;
-        margin-left: 14px;      /* même décalage que page-content */
+        margin-left: 2px;      /* même décalage que page-content */
         margin-right: 14px;
         padding: 20px;
         text-align: center;
