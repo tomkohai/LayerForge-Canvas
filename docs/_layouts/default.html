@@ -12,21 +12,22 @@
   <!-- BOUTON MENU MOBILE (désactivé en CSS mobile) -->
   <button class="mobile-menu-btn">☰ Menu</button>
 
-  <!-- SIDEBAR -->
+ <!-- SIDEBAR -->
   <aside class="sidebar">
-    <a href="{{ '/index.html' | relative_url }}">Accueil</a>
-    <a href="{{ '/installation.html' | relative_url }}">Installation</a>
-    <a href="{{ '/modes.html' | relative_url }}">Modes de travail</a>
-    <a href="{{ '/materials.html' | relative_url }}">Matériaux LF</a>
-    <a href="{{ '/layers.html' | relative_url }}">Layers</a>
-    <a href="{{ '/outline.html' | relative_url }}">Outline</a>
-    <a href="{{ '/lineart.html' | relative_url }}">LineArt</a>
-    <a href="{{ '/normalmap.html' | relative_url }}">Normal Maps</a>
-    <a href="{{ '/render.html' | relative_url }}">Rendu</a>
-    <a href="{{ '/utilities.html' | relative_url }}">Utilitaires</a>
-    <a href="{{ '/shortcuts.html' | relative_url }}">Raccourcis</a>
-    <a href="{{ '/roadmap.html' | relative_url }}">Roadmap</a>
-  </aside>
+    <a href="{{ '/index.html' | relative_url }}" class="{% if page.url == '/index.html' %}active{% endif %}">Accueil</a>
+    <a href="{{ '/installation.html' | relative_url }}" class="{% if page.url == '/installation.html' %}active{% endif %}">Installation</a>
+    <a href="{{ '/modes.html' | relative_url }}" class="{% if page.url == '/modes.html' %}active{% endif %}">Modes de travail</a>
+    <a href="{{ '/materials.html' | relative_url }}" class="{% if page.url == '/materials.html' %}active{% endif %}">Matériaux LF</a>
+    <a href="{{ '/layers.html' | relative_url }}" class="{% if page.url == '/layers.html' %}active{% endif %}">Layers</a>
+    <a href="{{ '/outline.html' | relative_url }}" class="{% if page.url == '/outline.html' %}active{% endif %}">Outline</a>
+    <a href="{{ '/lineart.html' | relative_url }}" class="{% if page.url == '/lineart.html' %}active{% endif %}">LineArt</a>
+    <a href="{{ '/normalmap.html' | relative_url }}" class="{% if page.url == '/normalmap.html' %}active{% endif %}">Normal Maps</a>
+    <a href="{{ '/render.html' | relative_url }}" class="{% if page.url == '/render.html' %}active{% endif %}">Rendu</a>
+    <a href="{{ '/utilities.html' | relative_url }}" class="{% if page.url == '/utilities.html' %}active{% endif %}">Utilitaires</a>
+    <a href="{{ '/shortcuts.html' | relative_url }}" class="{% if page.url == '/shortcuts.html' %}active{% endif %}">Raccourcis</a>
+    <a href="{{ '/roadmap.html' | relative_url }}" class="{% if page.url == '/roadmap.html' %}active{% endif %}">Roadmap</a>
+</aside>
+
 
   <!-- HEADER -->
   <header class="header-custom">
