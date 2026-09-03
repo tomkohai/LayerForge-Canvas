@@ -4,7 +4,7 @@ body {
     color: #111;
     margin: 0;
     padding: 0;
-    padding-left: 180px;
+    padding-left: 240px;
     font-family: "Inter", Arial, sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -76,18 +76,17 @@ body {
 /* CONTENU (desktop) */
 .page-content {
     max-width: 1000px;
-    margin-top: 140px;
+    margin-top: 120px;
     margin-bottom: 40px;
 
     /* centré dans l’espace restant */
     
-    margin-right: 10px;      /* le bloc se cale naturellement */
+    margin-right: 0px;      /* le bloc se cale naturellement */
     padding: 40px 80px;
     background: #fff;
     color: #111;
     min-height: calc(100vh - 160px);
     border-radius: 6px;
-    font-size: 19px;
     line-height: 1.2;
 }
 
