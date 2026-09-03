@@ -92,6 +92,7 @@ body {
 
 .lfc-center {
     grid-column: 2;
+    width: 800px;
 }
 
 
