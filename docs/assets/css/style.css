@@ -177,9 +177,10 @@ body {
  
     .lf-footer {
         max-width: 100%;
-        margin-left: 2px;      /* même décalage que page-content */
+        margin-left: 2px;      
         margin-right: 2px;
-        padding: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
         text-align: center;
         border-top: 2px solid #ddd;
     }
