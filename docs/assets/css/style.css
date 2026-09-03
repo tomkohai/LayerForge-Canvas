@@ -76,7 +76,7 @@ body {
 /* CONTENU (desktop) */
 .page-content {
     max-width: 1000px;
-    margin-top: 120px;
+    margin-top: 100px;
     margin-bottom: 40px;
 
     /* centré dans l’espace restant */
@@ -161,11 +161,11 @@ body {
 
     /* Contenu en pleine largeur */
     .page-content {
-        margin-left: 6px !important;
+        margin-left: 10px !important;
         margin-top: 40px;
         max-width: 100%;
         padding: 20px;
-        padding-left: 2px
+        padding-left: 6px
     }
 
 
