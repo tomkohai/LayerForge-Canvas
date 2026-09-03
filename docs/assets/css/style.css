@@ -4,11 +4,11 @@ body {
     color: #111;
     margin: 0;
     padding: 0;
-    padding-left: 180px;
+    padding-left: 140px;
     font-family: "Inter", Arial, sans-serif;
     font-weight: 500;
     font-size: 18px;
-    line-height: 1.6;
+    line-height: 1.4;
 }
 
 /* Surbrillance jaune LayerForge */
@@ -70,7 +70,7 @@ body {
 .blender-logo {
     height: 80px;
     width: auto;
-    margin-top: 5px;
+    margin-top: 2px;
 }
 
 /* CONTENU (desktop) */
@@ -80,7 +80,7 @@ body {
     margin-bottom: 40px;
 
     /* centré dans l’espace restant */
-    margin-left: 160px;      /* sidebar */
+    margin-left: 0px;      /* sidebar */
     margin-right: 60;      /* le bloc se cale naturellement */
 
     padding: 40px 80px;
