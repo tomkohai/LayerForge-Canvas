@@ -75,12 +75,13 @@ body {
 /* CONTENU (desktop) */
 .page-content {
     
-    margin-top: 100px;
+    margin-top: 80px;
     margin-bottom: 40px;
-    margin-right: 0px;      /* le bloc se cale naturellement */
+    margin-right: 20px; 
+    margin-left: 60px;
     padding: 0px 0px;
     padding-left: 240px;
-    padding-right: 24px;
+    padding-right: 20px;
     background: #fff;
     color: #111;
     min-height: calc(100vh - 160px);
