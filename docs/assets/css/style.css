@@ -76,14 +76,11 @@ body {
 .page-content {
     margin-top: 80px;
     margin-bottom: 40px;
-    margin-left: 180px; 
 
-    /* Grille 3 colonnes */
     display: grid;
-    grid-template-columns: 1fr auto 1fr;
+    grid-template-columns: 180px 800px 180px; /* ← FIXE, RIGIDE, PRÉVISIBLE */
     column-gap: 40px;
 
-    /* Le texte sera dans la colonne centrale */
     background: #fff;
     color: #111;
     min-height: calc(100vh - 160px);
@@ -93,7 +90,6 @@ body {
 
 .lfc-center {
     grid-column: 2;
-    width: 800px;
 }
 
 
