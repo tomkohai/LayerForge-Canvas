@@ -8,7 +8,7 @@ Layers non destructifs — peignez vos mesh 3D, modifiez, réorganisez sans jama
 
 Modes de fusion — mélangez vos calques Like Krita / Procreate/ Photoshop.
 
-Opacité & masques — contrôlez la transparence et les zones de peinture avec précision.
+Opacité  — contrôlez la transparence et les zones de peinture avec précision.
 
 Organisation intuitive — renommez, réordonnez vos layers facilement.
 
@@ -29,11 +29,10 @@ Fonctionnalitées implémentées :
 - Gestionnaire de layers - add / remove / reorder
 - Render switch (emission / BSDF) 
 - Hide / Show layer
-- Solo layer
 - Lock Alpha
 - lock layer
 - Rename
-- Duplicate
+- Duplicate & merge
 - Menu image source 
 - Outline 
 - Line Art
