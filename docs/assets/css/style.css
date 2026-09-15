@@ -91,7 +91,7 @@ body {
 }
 
 .blender-logo {
-    max-width: 25%; /* taille propre */
+    max-width: 15%; /* taille propre */
     height: auto;
     margin-top: -150px; /* ajuste selon ton design */
 }
