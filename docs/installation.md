@@ -9,26 +9,26 @@ LayerForge Canvas is easy to install and works seamlessly with Blender versions 
 - 
 Open Blender and go to Edit → Preferences → Add-ons.
 
-<img src="{{ '/assets/tuto/Edit.png' | relative_url }}" width="300">
-<img src="{{ '/assets/tuto/Preferences.png' | relative_url }}" width="300">
-<img src="{{ '/assets/tuto/Addon.png' | relative_url }}" width="300">
+![Installation Step 1](/assets/tuto/Edit.png)
+![Preferences](/assets/tuto/Preferences.png)
+![Addon](/assets/tuto/Addon.png)
 
 Click Install… and select the downloaded .zip.
 
-<img src="{{ '/assets/tuto/LFC.png' | relative_url }}" width="300">
+![Install](/assets/tuto/LFC.png)
 
 Enable the add‑on in the list to activate LayerForge Canvas, or uninstall it.
 
-<img src="{{ '/assets/tuto/Uninstall.png' | relative_url }}" width="300">
+![Uninstall](/assets/tuto/Uninstall.png)
 
 The LayerForge Canvas panel will appear in the 3D Viewport → Sidebar → LayerForge.
 
-<img src="{{ '/assets/tuto/Panel.png' | relative_url }}" width="300">
-<img src="{{ '/assets/tuto/LFCPanel.png' | relative_url }}" width="300">
+![Panel](/assets/tuto/Panel.png)
+![LFC Panel](/assets/tuto/LFCPanel.png)
 
 You can now start painting, managing layers, and using the advanced merge system directly inside Blender.
 
-<img src="{{ '/assets/tuto/Create.png' | relative_url }}" width="300">
-<img src="{{ '/assets/tuto/3DObj.png' | relative_url }}" width="300">
+![Create](/assets/tuto/Create.png)
+![3D Object](/assets/tuto/3DObj.png)
 
 **Have fun!**
