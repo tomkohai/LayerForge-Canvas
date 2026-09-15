@@ -10,6 +10,8 @@ title: Presentation
 
 LFC is under active development and aims to **bring Blender closer to a Krita / Photoshop‑like workflow**, while remaining **100% native to Blender**. It works in both Layout and Texture Paint Mode, and its internal architecture relies on node groups (NG) that separate and organize layers.
 
+LFC is fully compatible with Blender versions 4.5 through 5.2.
+
 ## Working Modes
 LayerForge Canvas provides several modes to adapt to the artist’s workflow:
 
