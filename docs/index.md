@@ -33,7 +33,7 @@ LFC offers a layer system inspired by 2D software:
 - add or remove layers anywhere in the stack,  
 - choose the canvas size at creation,  
 - freely reorder layers,  
-- each layer includes: Hide/Show, Solo, Alpha Lock, Rename, Duplicate, Blend Mode, and Transform (animatable).
+- each layer includes: Hide/Show, Alpha Lock, Layer Lock, Rename, Duplicate and UV Transform (animatable).
 
 Layers are stored inside **node groups**, which ensures:
 - full compatibility with the Shader Editor,  
@@ -44,29 +44,24 @@ Layers are stored inside **node groups**, which ensures:
 **Normal Layer**  
 When adding a new layer, the user can choose to create a normal map layer. After assigning the image to the normal texture node through the BSDF normal map settings, they can paint normals directly on the visible layer to control the colors used or benefit from real‑time rendering.
 
+## Merge 
+LayerForge Canvas provides an advanced merging system based on checkbox selection.
+This mode allows you to merge any layers, even when they are not consecutive. This system makes it easy to finalize a painting while keeping the file lightweight and maintaining a clear layer hierarchy. Improvements to the selective merge system are currently under development to further optimize rendering and eliminate artifacts.
+
 **Image Source**  
 Manages the layer’s image directly without opening the Image Editor or Shader Editor. Users can create, import, replace, rename, or remove images, and LFC also supports image sequences for animated workflows. The goal is to centralize texture management inside the layer panel so the artist can stay focused on painting.
 
-**Blending**  
-Adjusts how a layer mixes with a chosen color via the picker. It allows softening or strengthening the result through blend modes, modifying the layer’s brightness, or controlling alpha hardness when working with transparent rendering using Canvas Hide. It’s a quick way to correct areas, refine transitions, or enhance stylized elements without repainting.
 
 **Transform**  
 Moves, scales, or rotates a layer by modifying its UV mapping. Instead of editing the object or its UVs, LFC applies transformations directly to the layer, making it easy to reposition painted elements or adjust stylized details. Since these transformations can be animated, they provide a simple way to add motion to a layer while remaining fully integrated into the shader.
 
-## Merge & Optimization
-LFC provides two fusion systems:
-- **Merge visible layer images** (show only) → combines only the active layer images. The merged image can then be assigned to a layer through Image Source.  
-- **Full merge with new material creation** → generates a single texture, preserves alpha, and creates an optimized material.
-
-This system allows finalizing a painting while keeping a clean, lightweight result and preserving the material for future edits.  
-A **selective layer merge system** is under development to improve layer panel organization and management.
 
 ## Dynamic Animation of Settings
-In LayerForge Canvas, all layer parameters can be animated directly from the panel. A simple right‑click on any setting — opacity, brightness, blend mode, visibility, or transformations — inserts a **keyframe** just like any native Blender property.
+In LayerForge Canvas, all layer parameters can be animated directly from the panel. A simple right‑click on any setting — opacity or transformations — inserts a **keyframe** just like any native Blender property.
 
-Once keyframes are added, the animation can be edited in the **Graph Editor**, benefiting from all curve tools (interpolation, easing, cycles, etc.). This makes it possible to animate a layer like a graphic element: fading it in or out, brightening it progressively, creating pulsation effects, or moving and deforming it over time.
 
-A dedicated frame‑by‑frame animation mode is also planned, designed to achieve perfect 2D rendering directly inside Blender. The goal is to let artists combine stylized painting, animated layers, and NPR rendering in a coherent, fluid, fully native workflow.
+A dedicated frame‑by‑frame animation mode is planned for future development, designed to deliver perfect 2D rendering directly inside Blender.
+Its goal is to let artists combine stylized painting, animated layers, and NPR rendering within a coherent, fluid, fully native workflow.
 
 ## Development & Support
 LayerForge Canvas is evolving constantly. **Upcoming updates** aim to expand **drawing, painting, and selection tools**, including line, rectangle, ellipse, lasso, and **pixel selection movement**.  
