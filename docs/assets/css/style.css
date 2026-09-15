@@ -84,11 +84,17 @@ body {
     align-items: center;
 }
 
-.layerforge-logo,
-.blender-logo {
+.layerforge-logo {
     max-width: 100%;
     height: auto;
 }
+
+.blender-logo {
+    max-width: 120px; /* taille propre */
+    height: auto;
+    margin-top: -150px; /* ajuste selon ton design */
+}
+
 
 @media (max-width: 900px) {
     .layerforge-logo {
