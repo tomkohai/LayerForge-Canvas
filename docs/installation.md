@@ -7,25 +7,25 @@ LayerForge Canvas is easy to install and works seamlessly with Blender versions 
 - https://www. ...
 - https://www. ...
 - 
-Open Blender and go to Edit → Preferences → Add-ons.
+**Open Blender and go to Edit → Preferences → Add-ons.**
 
 ![Installation Step 1](/assets/tuto/Edit.png)
 ![Preferences](/assets/tuto/Preferences.png)
 ![Addon](/assets/tuto/Install.png)
 
-Click Install… and select the downloaded .zip.
+**Click Install… and select the downloaded .zip.**
 
 ![Install](/assets/tuto/LFC.png)
 
-Enable the add‑on in the list to activate LayerForge Canvas, or uninstall it.
+**Enable the add‑on in the list to activate LayerForge Canvas, or uninstall it.**
 
 ![Uninstall](/assets/tuto/Activate.png)
 
-The LayerForge Canvas panel will appear in the 3D Viewport → Sidebar → LayerForge.
+**The LayerForge Canvas panel will appear in the 3D Viewport → Sidebar → LayerForge.**
 
 ![Panel](/assets/tuto/Sidepanel.png)
 
-You can now start painting, managing layers, and using the advanced merge system directly inside Blender.
+**You can now start painting, managing layers, and using the advanced merge system directly inside Blender.**
 
 ![Create](/assets/tuto/Create.png)
 
