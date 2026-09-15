@@ -66,22 +66,42 @@ body {
     z-index: 1;
 }
 
+@media (max-width: 900px) {
+    .header-inner {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .header-custom {
+        padding: 10px 0;
+        margin-top: 60px; /* pour ne pas coller à la sidebar mobile */
+    }
+}
+
 .header-inner {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.layerforge-logo {
-    height: 400px;
-    width: auto;
+.layerforge-logo,
+.blender-logo {
+    max-width: 100%;
+    height: auto;
 }
 
-.blender-logo {
-    height: 100px;
-    width: auto;
-    margin-top: -180px;
+@media (max-width: 900px) {
+    .layerforge-logo {
+        max-width: 70%;
+        margin-top: 10px;
+    }
+
+    .blender-logo {
+        max-width: 40%;
+        margin-top: 0;
+    }
 }
+
 
 /* CONTENU (desktop) */
 .page-content {
@@ -98,6 +118,13 @@ body {
     min-height: calc(100vh - 160px);
     border-radius: 6px;
     line-height: 1.2;
+}
+
+.page-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
 }
 
 .lfc-center {
