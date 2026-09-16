@@ -87,11 +87,15 @@ Opens the layer Settings.
 
 ![Layers](/assets/tuto/layer/settings.png)
 
-  - Image source 
+  - *Image source*
+    
+The Image Source panel provides full control over the image assigned to the layer. It includes the complete list of available images, along with options to create a new image, remove the current one, rename it, or import an external image or an image sequence. The panel also exposes all relevant texture settings, such as interpolation, projection, extension, color, and alpha handling. Additional Source Settings allow switching between file‑based images and generated images, with the ability to resize the image’s pixel dimensions when needed. However, some of these parameters—especially those affecting projection, extension, or image generation—can lead to loss of painted pixels if modified after painting has already been done, so they should be adjusted with care.
 
 ![Layers](/assets/tuto/layer/source.png)
       
-  - Transform
+  - *Transform*
+    
+The Transform panel allows you to adjust the UV mapping of the layer’s image, including location, rotation, and scale. These operations modify how the image is projected onto the canvas, without altering the underlying pixels themselves. UV transforms are useful for repositioning or orienting a texture, but they remain limited to UV-space manipulation. A dedicated system for true pixel‑based transformations (moving the painted pixels directly, without relying on UVs or image projection) is currently in development and will provide more intuitive control for hand‑painted layers.
     
 ![Layers](/assets/tuto/layer/transform.png)
 
