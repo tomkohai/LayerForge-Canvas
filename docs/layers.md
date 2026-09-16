@@ -1,3 +1,4 @@
+![Mode 1](/assets/tuto/layer/editor.png)
 
 ## **Introduction to Layers**
 
