@@ -81,3 +81,8 @@ All settings in the Tools panel, as well as layer parameters and other controls,
 **Anim Object from panel LayerForge Canvas**
 
 ![Tools](/assets/tuto/tools/animobj.gif)
+
+**Anim Layers from panel LFC**
+![Tools](/assets/tuto/tools/animeyes.gif)
+
+![Tools](/assets/tuto/tools/animlayer.gif)
