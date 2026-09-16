@@ -22,19 +22,19 @@ This architecture ensures:
 
 ![Layers](/assets/tuto/layer/list.png)
 
+
+
+**Slider**
 ![Layers](/assets/tuto/layer/opalpha.png)
 
-**Opacity Slider**
+*Opacity*
 Controls the opacity of the active layer.
 
-![Layers](/assets/tuto/layer/opacity.gif)
-
-
-**Hard Alpha**
+*Hard Alpha*
 Controls the hardness of the alpha edges of painted pixels.
 Helps produce cleaner edges when the canvas is hidden.
 
-
+![Layers](/assets/tuto/layer/alpha.gif)
 
 
 ## Global controls
@@ -51,10 +51,13 @@ Deletes the active layer from the stack.
 Allows changing the order of layers in the stack.
 The layer order directly affects how pixels are blended.
 
+![Layers](/assets/tuto/layer/reorder.gif)
+
+
 - **Merge Selected Layers**  
 Merges the layers that have their Merge checkbox enabled, whether they are consecutive or not.
 
-
+![Layers](/assets/tuto/layer/merge.gif)
 
 ## Each layer displays:
 
@@ -84,13 +87,20 @@ Opens the layer Settings.
 
 ![Layers](/assets/tuto/layer/settings.png)
 
-      - Image source 
+  - Image source 
 
-      ![Layers](/assets/tuto/layer/source.png)
+![Layers](/assets/tuto/layer/source.png)
       
-      - Transform 
+  - Transform
+    
+![Layers](/assets/tuto/layer/transform.png)
 
-      ![Layers](/assets/tuto/layer/transform.png)
+![Layers](/assets/tuto/layer/transform.gif)
+
+For better accuracy when using Transform on a layer, consider adjusting Blender’s Unit Scale to 0.5.
+
+![Layers](/assets/tuto/layer/unit.gif)
+
 
 
 ## **Normal Map**
