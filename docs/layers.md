@@ -22,14 +22,19 @@ This architecture ensures:
 
 ![Layers](/assets/tuto/layer/list.png)
 
+![Layers](/assets/tuto/layer/opalpha.png)
+
 **Opacity Slider**
 Controls the opacity of the active layer.
+
+![Layers](/assets/tuto/layer/opacity.gif)
+
 
 **Hard Alpha**
 Controls the hardness of the alpha edges of painted pixels.
 Helps produce cleaner edges when the canvas is hidden.
 
-![Layers](/assets/tuto/layer/opalpha.png)
+
 
 
 ## Global controls
