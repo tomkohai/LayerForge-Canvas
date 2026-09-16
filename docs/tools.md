@@ -36,7 +36,7 @@ The Outline tool automatically adds a clean outline mesh to the painted object a
 - Hide / Show
 
 - Delete
-
+![Tools](/assets/tuto/tools/outline.gif)
 
 
 ![Tools](/assets/tuto/tools/lineicon.png)
@@ -59,7 +59,7 @@ The Line Art tool automatically adds a Grease Pencil Line Art object linked to t
 - Crease
 
 - Delete
-
+![Tools](/assets/tuto/tools/lineart.gif)
 
 
 The Tools panel also provides quick access to several workflow helpers:
