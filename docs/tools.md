@@ -10,13 +10,16 @@ The panel includes a synchronized list of Blender modes, allowing fast switching
 
 
 ![Tools](/assets/tuto/tools/toolbar.png)
-![Tools](/assets/tuto/tools/Backicon.png)**Backface Culling**
+![Tools](/assets/tuto/tools/Backicon.png)
+**Backface Culling**
 Backface Culling can be enabled directly from the panel. While primarily used as a viewport optimization, it also helps clarify the visible painting surface by hiding back‑facing polygons, which can be useful when painting or outlining complex meshes.
 
-![Tools](/assets/tuto/tools/rendericon.png)**Render Switch**
+![Tools](/assets/tuto/tools/rendericon.png)
+**Render Switch**
 The Render Switch toggles the material between BSDF shading and Emission shading with a single click. This is especially useful when previewing painted textures, isolating color information, or working in 2D canvas mode where lighting can interfere with the final look.
 
-![Tools](/assets/tuto/tools/outlineicon.png)## Outline System
+![Tools](/assets/tuto/tools/outlineicon.png)
+## Outline System
 
 The Outline tool automatically adds a clean outline mesh to the painted object and opens the floating Outline Settings panel. Once the outline has been created, pressing the button again simply reopens the settings instead of generating a new outline.
 
@@ -36,7 +39,8 @@ The Outline tool automatically adds a clean outline mesh to the painted object a
 
 
 
-![Tools](/assets/tuto/tools/lineicon.png)## Line Art System
+![Tools](/assets/tuto/tools/lineicon.png)
+## Line Art System
 
 The Line Art tool automatically adds a Grease Pencil Line Art object linked to the painted mesh and opens the floating Line Art Settings panel. As with the outline system, pressing the button again only reopens the settings without creating additional line‑art objects.
 
@@ -60,11 +64,14 @@ The Line Art tool automatically adds a Grease Pencil Line Art object linked to t
 
 The Tools panel also provides quick access to several workflow helpers:
 
-![Tools](/assets/tuto/tools/camicon.png)CamView — switches to the dedicated 2D camera view used for painting.
+![Tools](/assets/tuto/tools/camicon.png)
+**CamView** — switches to the dedicated 2D camera view used for painting.
 
-![Tools](/assets/tuto/tools/transpicon.png)Transform Panel — opens the object transform controls (move, rotate, scale).
+![Tools](/assets/tuto/tools/transpicon.png)
+**Transform Panel** — opens the object transform controls (move, rotate, scale).
 
-![Tools](/assets/tuto/tools/frameicon.png)Frame Selected — centers the view on the selected object in the scene.
+![Tools](/assets/tuto/tools/frameicon.png)
+**Frame Selected** — centers the view on the selected object in the scene.
 
 
 ## Animating Settings and Layer Parameters
