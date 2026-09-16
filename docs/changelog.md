@@ -1,181 +1,171 @@
+## LayerForge Canvas — Full Changelog
 
+**V0.1 — Core System (Initial Prototype)**
 
+Creation of the LF material system
 
+First version of the layer system
 
-## V0.1 — Système de base (prototype initial)
-Création du système de matériaux LF
+Addition of the base nodes (Layer, NBAdd, Master)
 
-Première version du système de calques
+Initial handling of internal images (TEX_IMAGE)
 
-Ajout des nodes de base (Layer, NBAdd, Master)
+First version of the 2D canvas inside Blender
 
-Gestion initiale des images internes (TEX_IMAGE)
+Beginning of the painting mode (Texture Paint + LF routing)
 
-Première version du canvas 2D dans Blender
+**V0.2 — Add / Remove / Reorder (Foundations of the Layer Stack)**
 
-Début du mode peinture (Texture Paint + LF routing)
+Addition of the Add Layer button
 
+Layer removal with proper node cleanup
 
-## V0.2 — Add / Remove / Reorder (fondations du layer stack)
+Full stack reordering
 
-Ajout du bouton Add Layer
+Automatic renumbering of layers and NBAdd nodes
 
-Suppression de layer avec nettoyage des nodes
+Fixes for LF indices (lf_index)
 
-Reorder complet du stack
+Automatic update of the merge map
 
-Renumérotation automatique des layers et NBAdd
+Stabilization of the UID system for each layer
 
-Correction des index LF (lf_index)
+**V0.3 — Duplicate & Internal Image System**
 
-Mise à jour automatique du merge map
+Addition of Duplicate Layer
 
-Stabilisation du système UID pour chaque layer
+CPU/GPU buffer handling for painted images
 
+Fixes for TEX_IMAGE copy behavior
 
-## V0.3 — Duplicate & système d’images internes
+First version of straight anti‑halo
 
-Ajout du Duplicate Layer
+First version of soft correction
 
-Gestion du buffer CPU/GPU pour les images peintes
+Introduction of the lf_is_processed flag
 
-Correction du comportement de copy TEX_IMAGE
+Stabilization of duplicate to avoid gray halos
 
-Anti‑halo straight (première version)
+**V0.4 — Merge (First Version)**
 
-Correction douce (première version)
+Merge of checked layers
 
-Introduction du flag lf_is_processed
+NumPy compositing (NORMAL, MULTIPLY, SCREEN, OVERLAY)
 
-Stabilisation du duplicate pour éviter les halos gris
+Per‑layer opacity handling
 
+Automatic creation of a merged image
 
-## V0.4 — Merge (première version)
+Automatic removal of merged layers
 
-Merge des layers checked
+Merge map update after deletion
 
-Composite NumPy (NORMAL, MULTIPLY, SCREEN, OVERLAY)
+Automatic selection of the base layer
 
-Gestion des opacités par layer
+**V0.5 — Layer System Refactor & Normal Map Pipeline**
 
-Création automatique d’une image fusionnée
+Full refactor of the Layer/NBAdd system
 
-Suppression automatique des layers mergés
+Rewrite of get_real_layer_nbadd_chain
 
-Mise à jour du merge map après suppression
+Stabilization of dynamic stacks
 
-Sélection automatique du layer de base
+Fixes for UID/index offsets
 
+Safe cleanup of visual labels
 
-## V0.5 — Refactor du système de calques et ajout d'un pipelin normal map 
+Canvas update after every operation
 
-Refactor complet du système Layer/NBAdd
+Fixes for GPU→CPU sync issues
 
-Refonte de get_real_layer_nbadd_chain
+Node pipeline for hand‑painted normal maps
 
-Stabilisation des piles dynamiques
+Creation, assignment, and render mode switching for normal maps
 
-Correction des décalages UID/index
+**V0.6 — 2D Canvas Mode & Line Art Camera View**
 
-Nettoyage des labels visuels (safe)
+Addition of the 2D Canvas mode
 
-Mise à jour du canvas après chaque opération
+Dedicated camera view for drawing
 
-Correction des problèmes de synchro GPU→CPU
+Object transform panel (scale/rotate/move)
 
-Pipeline de nodes normal map handpaint
+Framing tools for 2D painting
 
-Création atttribution et changement de mode render 
+Viewport stabilization for drawing
 
+Fixes for canvas behavior in Texture Paint
 
-## V0.6 — Mode Canvas 2D et line art cam view 
+**V0.7 — Outline & Auto Line Art**
 
-Ajout du mode Canvas 2D
+Addition of the automatic Outline system
 
-Vue caméra dédiée au dessin
+Geometry‑based automatic Line Art
 
-Panel de transformation objet (scale/rotate/move)
+Automatic thickness adjustment
 
-Outils de cadrage pour la peinture 2D
+Fixes for 2D mode behavior
 
-Stabilisation du viewport pour le dessin
+Integration into the LF stack
 
-Correction du comportement du canvas dans Texture Paint
+**V0.8 — Stabilized Straight Merge (Final Pipeline)**
 
+Full transition to a straight pipeline
 
-## V0.7 — Outline & Line Art Auto
+Complete removal of internal premultiplied alpha
 
-Ajout du système d’Outline auto
+Stabilized straight anti‑halo
 
-Line Art automatique basé sur la géométrie
+Conditional soft correction (lf_is_processed)
 
-Ajustement automatique de l’épaisseur
+Merge without white halos
 
-Correction du comportement en mode 2D
+Merge without gray halos
 
-Intégration dans le stack LF
+Falloff preserved
 
+Colors remain unmixed
 
-## V0.8 — Merge straight stabilisé (pipeline final)
+Final stable pipeline
 
-Passage complet du pipeline en straight
+**V0.9 — UI & Panels**
 
-Suppression totale du premul interne
+Layer management panel
 
-Anti‑halo straight stabilisé
+Merge panel
 
-Correction douce conditionnelle (flag lf_is_processed)
+Transform panel
 
-Merge sans halo blanc
+2D camera panel
 
-Merge sans halo gris
+UI cleanup
 
-Falloff intact
+Menu reorganization
 
-Couleurs non mélangées
+Addition of warnings (merge popup)
 
-Pipeline final stable
+**V1.0 — Final Version (Release)**
 
+Finalized straight pipeline
 
-## V0.9 — UI & Panels
+Stabilized duplicate
 
-Panel de gestion des layers
+Stabilized merge
 
-Panel de merge
+Complete layer system (Add, Remove, Reorder, Duplicate, Merge)
 
-Panel de transform
+Fully functional 2D canvas
 
-Panel de caméra 2D
+Automatic Outline & Line Art
 
-Nettoyage de l’UI
+Complete UI
 
-Réorganisation des menus
+First painting showcase
 
-Ajout des warnings (merge popup)
+Rendered draw animation
 
+Gumroad / itch.io pages ready
 
-## V1.0 — Version finale (release)
+Website ready
 
-Pipeline straight finalisé
-
-Duplicate stabilisé
-
-Merge stabilisé
-
-Système de calques complet (Add, Remove, Reorder, Duplicate, Merge)
-
-Canvas 2D opérationnel
-
-Outline & Line Art auto
-
-UI complète
-
-Première peinture showcase
-
-Animation de draw rendue
-
-Pages Gumroad / itch.io prêtes
-
-Site prêt
-
-Addon prêt pour publication
+Addon ready for release
