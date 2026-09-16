@@ -1,57 +1,69 @@
-8. Gestion des Layers
-Add Layer
-·	Ajoute un layer dans la pile
-·	Position : début / fin / milieu selon layer actif
-·	Sélection automatique du nouveau layer
-·	Choix de la taille
-·	Possibilité de créer un layer normal map
-Remove Layer
-·	Supprime le layer actif
-·	Sélection automatique du layer suivant/précédent
-Move Up / Move Down
-·	Déplace le layer actif dans la pile
-·	Affecte l’ordre de fusion des pixels
-Merge Visible img
-Fusionne les images des layers visibles :
-·	Respecte l’ordre des layers
-·	Respecte la transparence
-·	Ignore les layers masqués
-·	Crée une image interne Blender
-·	Image récupérable dans les settings du layer
-Opacity Slider
-Contrôle l’opacité du layer actif.
-9. Liste des Layers
-Chaque layer affiche :
-·	Hide/Show
-·	Solo
-·	Lock Alpha
-·	Lock Layer
-·	Duplicate Layer
-·	Rename Layer
-À droite : flèche pour ouvrir les Settings.
-10. Settings des Layers
-Image
-·	Liste des images
-·	New Image
-·	Import Image / Sequence
-·	Rename
-·	Remove
-·	Interpolation
-·	Extension
-Source Settings
-·	Type
-·	Width / Height (resize → perte des pixels)
-·	Color (remplit le layer)
-Blending
-·	Tint (couleur)
-·	Mode (mix, darken, etc.)
-·	Factor
-Luminosity
-·	Augmente la luminosité du layer
-Advanced
-·	Hard Alpha (nettoie l’alpha quand canvas masqué)
-Transform
-·	Mapping : location, rotation, scale
-·	Déplace l’image ou les UV
-·	À améliorer pour déplacer les pixels sans toucher UV/image
 
+## **Introduction to Layers**
+
+In LayerForge Canvas, each layer is represented inside the material as an individual node group, stacked one above another.
+These node groups do not mix colors together during the layer stage: each layer preserves its own pixel data, opacity, and blending parameters independently.
+
+The actual color mixing only happens later in the shader, where the stacked node groups are combined to produce the final material output.
+
+This architecture ensures:
+
+precise control over each layer,
+
+non‑destructive editing,
+
+predictable blending behavior,
+
+and a clean separation between layer compositing and shader rendering.
+## **Layer List**
+
+
+**Opacity Slider**
+Controls the opacity of the active layer.
+
+**Hard Alpha**
+Controls the hardness of the alpha edges of painted pixels.
+Helps produce cleaner edges when the canvas is hidden.
+
+## Global controls
+
+**Add Layer**  
+Creates a new layer in the stack, based on the current active layer position, with an optional custom pixel size.
+
+**Trash / Remove Layer**  
+Deletes the active layer from the stack.
+
+**Reorder Layers**  
+Allows changing the order of layers in the stack.
+The layer order directly affects how pixels are blended.
+
+**Merge Selected Layers**  
+Merges the layers that have their Merge checkbox enabled, whether they are consecutive or not.
+
+
+## Each layer displays:
+Merge Checkbox
+Allows selecting layers to merge (whether consecutive or not).
+
+**Hide / Show**
+Shows or hides the layer while preserving its defined opacity.
+
+**Lock Alpha**
+Enables or disables alpha protection.
+Prevents brushes from painting outside the pixels already present on the active layer.
+
+**Lock Layer**
+Prevents the layer from being selected in the list, avoiding accidental modifications.
+
+**Duplicate Layer**
+Duplicates the active layer and its pixels into a new layer.
+
+**Rename Layer**
+Renames the layer’s label.
+
+**Right Arrow**
+Opens the layer Settings.
+
+Normal Map
+Inactive when the material is first created.
+Automatically becomes active when a Normal Map layer is added, enabling hand‑painted normal map workflows.
