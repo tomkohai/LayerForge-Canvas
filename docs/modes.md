@@ -18,21 +18,21 @@ Layer 1 — the first painting layer, ready to use right away.
 
 The CamView Mode adds a dedicated panel that allows you to paint a 3D object through a 2D camera view, while maintaining full control over the object in Texture Paint. This mode provides intuitive navigation and precise transformation tools:
 
-2D camera view for painting directly on a 3D object
+- 2D camera view for painting directly on a 3D object
 
-Full control of the object in Texture Paint
+- Full control of the object in Texture Paint
 
-Movement along the X / Y / Z axes
+- Movement along the X / Y / Z axes
 
-Object rotation
+- Object rotation
 
-Zoom: Ctrl + middle‑mouse click
+- Zoom: Ctrl + middle‑mouse click
 
-Pan: Shift + middle‑mouse click
+- Pan: Shift + middle‑mouse click
 
-Exit camera view: middle‑mouse click  or the camera icon
+- Exit camera view: middle‑mouse click  or the camera icon
 
-Return to camera view: Numpad 0 or the camera icon
+- Return to camera view: Numpad 0 or the camera icon
 
 This mode combines the precision of a 2D view with the flexibility of 3D painting, offering a hybrid workflow that is particularly effective for touch‑ups, fine details, and perspective adjustments.
 
