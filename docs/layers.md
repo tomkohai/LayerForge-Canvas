@@ -1,4 +1,4 @@
-![Mode 1](/assets/tuto/layer/editor.png)
+![Layers](/assets/tuto/layer/editor.png)
 
 ## **Introduction to Layers**
 
@@ -9,15 +9,18 @@ The actual color mixing only happens later in the shader, where the stacked node
 
 This architecture ensures:
 
-precise control over each layer,
+- precise control over each layer,
 
-non‑destructive editing,
+- non‑destructive editing,
 
-predictable blending behavior,
+- predictable blending behavior,
 
-and a clean separation between layer compositing and shader rendering.
+- and a clean separation between layer compositing and shader rendering.
+
+  
 ## **Layer List**
 
+![Layers](/assets/tuto/layer/list.png)
 
 **Opacity Slider**
 Controls the opacity of the active layer.
@@ -26,45 +29,68 @@ Controls the opacity of the active layer.
 Controls the hardness of the alpha edges of painted pixels.
 Helps produce cleaner edges when the canvas is hidden.
 
+![Layers](/assets/tuto/layer/opalpha.png)
+
+
 ## Global controls
 
-**Add Layer**  
+![Layers](/assets/tuto/layer/layertools.png)
+
+- **Add Layer**  
 Creates a new layer in the stack, based on the current active layer position, with an optional custom pixel size.
 
-**Trash / Remove Layer**  
+- **Trash / Remove Layer**  
 Deletes the active layer from the stack.
 
-**Reorder Layers**  
+- **Reorder Layers**  
 Allows changing the order of layers in the stack.
 The layer order directly affects how pixels are blended.
 
-**Merge Selected Layers**  
+- **Merge Selected Layers**  
 Merges the layers that have their Merge checkbox enabled, whether they are consecutive or not.
 
 
+
 ## Each layer displays:
-Merge Checkbox
+
+![Layers](/assets/tuto/layer/layer.png)
+
+- **Merge Checkbox**
 Allows selecting layers to merge (whether consecutive or not).
 
-**Hide / Show**
+- **Hide / Show**
 Shows or hides the layer while preserving its defined opacity.
 
-**Lock Alpha**
+- **Lock Alpha**
 Enables or disables alpha protection.
 Prevents brushes from painting outside the pixels already present on the active layer.
 
-**Lock Layer**
+- **Lock Layer**
 Prevents the layer from being selected in the list, avoiding accidental modifications.
 
-**Duplicate Layer**
+- **Duplicate Layer**
 Duplicates the active layer and its pixels into a new layer.
 
-**Rename Layer**
+- **Rename Layer**
 Renames the layer’s label.
 
-**Right Arrow**
+- **Right Arrow**
 Opens the layer Settings.
 
-Normal Map
+![Layers](/assets/tuto/layer/settings.png)
+
+      - Image source 
+
+      ![Layers](/assets/tuto/layer/source.png)
+      
+      - Transform 
+
+      ![Layers](/assets/tuto/layer/transform.png)
+
+
+## **Normal Map**
+
+![Layers](/assets/tuto/layer/normal.png)
+
 Inactive when the material is first created.
 Automatically becomes active when a Normal Map layer is added, enabling hand‑painted normal map workflows.
