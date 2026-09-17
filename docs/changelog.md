@@ -160,12 +160,3 @@ Automatic Outline & Line Art
 
 Complete UI
 
-First painting showcase
-
-Rendered draw animation
-
-Gumroad / itch.io pages ready
-
-Website ready
-
-Addon ready for release
