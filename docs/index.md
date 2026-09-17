@@ -7,11 +7,14 @@ title: Presentation
 
 
 # Presentation
-**LayerForge Canvas** is a **Blender addon** designed to extend and streamline the Texture Paint workflow. It is particularly suited for artists working in stylized **NPR emission**, but it also allows painting **stylized normal maps** directly, providing depth through **BSDF**. LFC includes a **dedicated normal map palette** and offers a simple switch between emission and BSDF through the **Render Switch**, making it easy to move from flat stylized rendering to a relief‑based look.
 
-LFC is under active development and aims to **bring Blender closer to a Krita / Photoshop‑like workflow**, while remaining **100% native to Blender**. It works in both Layout and Texture Paint Mode, and its internal architecture relies on node groups (NG) that separate and organize layers.
+**LayerForge Canvas is a Blender addon** designed to extend and streamline the Texture Paint workflow. It is particularly suited for artists working in stylized NPR emission, but it also allows painting stylized normal maps directly, providing depth through BSDF. LFC includes a dedicated normal map palette and offers a simple switch between emission and BSDF through the Render Switch, making it easy to move from flat stylized rendering to a relief‑based look.
 
-LFC is fully compatible with Blender versions 4.5 through 5.2.
+LFC aims to bring into Blender a drawing and animation workflow inspired by traditional 2D tools such as Krita. The goal is to offer a familiar, painter‑friendly environment inside Blender, so artists accustomed to classic 2D software can feel at home inside Blender, with a workflow that matches the way they naturally draw and animate. It acts as a bridge between 2D and 3D practices, expanding Blender’s accessibility without replacing existing tools like Grease Pencil.
+
+LFC is under active development and aims to bring Blender closer to a Krita / Photoshop‑like workflow, while remaining 100% native to Blender. It works in both Layout and Texture Paint Mode, and its internal architecture relies on node groups (NG) that separate and organize layers.
+
+LFC is fully compatible with Blender versions **4.5 through 5.2.**
 
 ## Working Modes
 LayerForge Canvas provides several modes to adapt to the artist’s workflow:
