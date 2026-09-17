@@ -111,5 +111,59 @@ For better accuracy when using Transform on a layer, consider adjusting Blender�
 
 ![Layers](/assets/tuto/layer/normal.png)
 
-Inactive when the material is first created.
-Automatically becomes active when a Normal Map layer is added, enabling hand‑painted normal map workflows.
+*Inactive when the material is first created.*
+
+**Normal Map Handpaint in LayerForge Canvas (LFC)**
+The Normal Map Handpaint mode in LayerForge Canvas activates automatically when creating a normal map layer. From that moment, the normal depth painting palette becomes available in the palette (brush tools → palette), allowing you to paint relief information directly on the canvas. The generated normal map image is immediately assigned to the Normal Map node in the shader, ensuring correct OpenGL interpretation, while remaining active inside the layer so you can paint on it directly and in real time.
+
+## Normal Settings (via the layer arrow)
+
+**Image settings**
+
+- Delete the image
+
+- Rename the image
+
+- Import an image
+
+- Select an existing image
+
+This panel becomes active only when the normal map layer is selected.
+
+**UV Mapping**
+Allows you to transform the normal map image directly on the canvas:
+
+- Translate
+
+- Rotate
+
+- Scale
+
+These transformations let you adjust the position of the painted relief without modifying the painting itself.
+
+
+**Normal Map Node**
+
+- Controls the strength
+
+- Controls the Tangent/Object space
+
+- Allows stylization of the relief interpretation
+
+**Normal Mapping Node**
+
+- Controls how the light reacts to the relief
+
+- Enables dynamic shading even in a 2D workflow
+
+**BSDF Shader (Metallic / Roughness / IOR)**
+
+The BSDF completes the pipeline by allowing refinement of:
+
+- Metallic
+
+- Roughness
+
+- IOR
+
+These parameters influence the physical or stylized behavior of the final material, complementing the painted relief.
