@@ -23,6 +23,33 @@ title: Presentation
   LFC is fully compatible with Blender versions <strong>4.5 through 5.2</strong>.
 </p>
 
+<section class="lf-home-support">
+  <h2>Support & Downloads</h2>
+
+  <p>
+    LayerForge Canvas is a free addon developed by <strong>ToKohai</strong> within 
+    <strong>Enjoy Graphix</strong>. You can download the addon from the official platforms,
+    and support the project if you wish to help its development and future features.
+  </p>
+
+  <p class="lf-download-links">
+    Download the addon:
+    <a href="https://gumroad.com/">Gumroad</a> —
+    <a href="https://itch.io/">Itch.io</a>
+  </p>
+
+  <p class="lf-support-links">
+    Support the project:
+    <a href="https://ko-fi.com/">Ko‑fi</a>
+  </p>
+
+  <p>
+    <a class="lf-discord-btn" href="https://discord.gg/HAfbG6YKQ5" target="_blank">
+      Join the Discord Community
+    </a>
+  </p>
+</section>
+
 ## Working Modes
 LayerForge Canvas provides several modes to adapt to the artist’s workflow:
 
