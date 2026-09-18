@@ -167,3 +167,5 @@ The BSDF completes the pipeline by allowing refinement of:
 - IOR
 
 These parameters influence the physical or stylized behavior of the final material, complementing the painted relief.
+
+![Layers](/assets/tuto/tools/normal1.gif)
