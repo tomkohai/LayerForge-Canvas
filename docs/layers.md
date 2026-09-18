@@ -116,6 +116,8 @@ For better accuracy when using Transform on a layer, consider adjusting Blenderâ
 **Normal Map Handpaint in LayerForge Canvas (LFC)**
 The Normal Map Handpaint mode in LayerForge Canvas activates automatically when creating a normal map layer. From that moment, the normal depth painting palette becomes available in the palette (brush tools â†’ palette), allowing you to paint relief information directly on the canvas. The generated normal map image is immediately assigned to the Normal Map node in the shader, ensuring correct OpenGL interpretation, while remaining active inside the layer so you can paint on it directly and in real time.
 
+![Layers](/assets/tuto/layer/process.gif)
+
 ## Normal Settings (via the layer arrow)
 
 **Image settings**
