@@ -232,6 +232,21 @@ body {
         padding-left: 6px
     }
 
+    .lf-discord-btn {
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: #5865F2; /* Discord blue */
+    color: #ffffff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+    }
+
+    .lf-discord-btn:hover {
+    background-color: #4752C4; /* Slightly darker Discord blue */
+    }
+
 
  
     .lf-footer {
