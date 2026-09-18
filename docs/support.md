@@ -3,10 +3,15 @@
   <h1>Support LayerForge Canvas</h1>
 
   <p>
-    LayerForge Canvas is a free and open creative tool developed within 
-    <strong>Work Edge</strong>, an audiovisual production company based in France.
-    If you enjoy the addon and want to help its evolution, you can support the project
-    through voluntary contributions.
+  LayerForge Canvas is developed by <strong>ToKohai</strong> within 
+  <strong>Enjoy Graphix</strong>, a young and growing audiovisual production studio based in France. 
+  The addon is entirely free and built with the goal of providing artists with a powerful, 
+  non-destructive painting workflow inside Blender. 
+  
+  If you enjoy the tool and want to help shape its future, you can support the project through 
+  voluntary contributions. Your support directly fuels the development of upcoming features, 
+  new creative tools, and future versions planned in the public roadmap.
+
   </p>
 
   <h2>Why Support?</h2>
@@ -31,8 +36,11 @@
   </p>
 
   <p>
-    <a href="https://discord.gg/">Join the Discord</a>
+  <a class="lf-discord-btn" href="https://discord.gg/HAfbG6YKQ5" target="_blank">
+    Join the Discord Community
+  </a>
   </p>
+
 
   <h2>Transparency</h2>
   <p>
