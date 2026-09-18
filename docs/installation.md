@@ -2,11 +2,23 @@
 
 LayerForge Canvas is easy to install and works seamlessly with Blender versions 4.5 through 5.2.
 
-**Download the latest LayerForge Canvas .zip file**.
-- https://www. ...
-- https://www. ...
-- https://www. ...
-- 
+<section class="lf-install-download">
+  <h2>Download LayerForge Canvas</h2>
+
+  <p>
+    You can download the latest version of LayerForge Canvas from the official platforms:
+  </p>
+
+  <p class="lf-download-links">
+    <a href="https://gumroad.com/">Gumroad</a> —
+    <a href="https://itch.io/">Itch.io</a>
+  </p>
+
+  <p>
+    Both platforms offer free downloads, with optional support if you wish to contribute.
+  </p>
+</section>
+
 **Open Blender and go to Edit → Preferences → Add-ons.**
 
 ![Installation Step 1](/assets/tuto/Edit.png)
