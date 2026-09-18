@@ -31,8 +31,10 @@
 
   <h2>Join the Community</h2>
   <p>
-    You can also follow the project, share feedback, and join discussions on our
-    community Discord server:
+    LayerForge Canvas grows thanks to its community. If you have ideas, feature requests,
+    workflow improvements, creative tools you would love to see in future versions, or if you
+    encounter any issues while using the addon, you’re invited to share them directly with us
+    on Discord.
   </p>
 
   <p>
@@ -40,7 +42,16 @@
     Join the Discord Community
   </a>
   </p>
-
+  <p>
+    If you encounter bugs, unexpected behavior, or any technical issues while using
+    LayerForge Canvas, you can report them directly on the public GitHub Issues page:
+  </p>
+  
+  <p>
+    <a class="lf-issues-btn" href="https://github.com/tomkohai/LayerForge-Canvas/issues" target="_blank">
+      Report an Issue on GitHub
+    </a>
+  </p>
 
   <h2>Transparency</h2>
   <p>
