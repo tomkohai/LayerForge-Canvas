@@ -62,7 +62,7 @@
 
   <h2>Company Information</h2>
   <p>
-    Work Edge — SAS (France)  
+    Enjoy Graphix studio (Work Edge SAS - France)  
     SIRET: <strong>79804049900047</strong>  
     Non‑commercial voluntary contributions (no VAT applicable).  
   </p>
