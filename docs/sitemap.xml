@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
     <loc>https://tomkohai.github.io/LayerForge-Canvas/</loc>
     <priority>1.0</priority>
   </url>
+
+  <url>
+    <loc>https://tomkohai.github.io/LayerForge-Canvas/installation.html</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://tomkohai.github.io/LayerForge-Canvas/modes.html</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://tomkohai.github.io/LayerForge-Canvas/layers.html</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://tomkohai.github.io/LayerForge-Canvas/tools.html</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://tomkohai.github.io/LayerForge-Canvas/roadmap.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://tomkohai.github.io/LayerForge-Canvas/changelog.html</loc>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
